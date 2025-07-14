@@ -24,6 +24,7 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('Total loans updated: ' || v_updated_count);
 END;
 /
+
 --Scenario 2: 
 ALTER TABLE CUSTOMERS ADD ISVIP VARCHAR2(5);
 
